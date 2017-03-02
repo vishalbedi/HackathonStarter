@@ -1,0 +1,27 @@
+<div class="container" ng-controller="View2Ctrl">
+    <div>
+        <h1>REFRESHER</h1>
+    </div>
+    <div >
+        <table>
+
+
+
+            <tr>
+                <td>Your name</td>
+                <td><input type="text" name="username" placeholder = "Enter your name" ng-model="newUser.name"><br></td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td><input type="text" name="email" placeholder="Enter your mail id" ng-model="newUser.email"><br></td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td><input type="password" name="pwd" placeholder="Enter a password" ng-model="newUser.password"><br></td>
+            </tr>
+            <tr><td><button class="button" ng-click="fn.signUp()">Sign me up</button></td></tr>
+
+        </table>
+    </div>
+
+</div>

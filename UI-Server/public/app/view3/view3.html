@@ -1,0 +1,27 @@
+<div class="container" ng-controller="View3Ctrl">
+  <div>
+    <h1>REFRESHER</h1>
+  </div>
+  <div>
+    <div class="info"> Hello {{currentUser.name}}</div>
+    <div>Your Email ID is {{currentUser.email}}</div>
+    <h5><button class="button" ng-click="fn.logout()">Logout</button></h5>
+  </div>
+  <div>
+    <div>
+      <ul>
+        <li ng-repeat=" post in olderPosts" >
+          <div><p>{{ post.content }}</p></div>
+        </li>
+      </ul>
+    </div>
+
+    <table>
+      <tr>
+        <td>
+          <input type="text" name="post" placeholder="Enter meme material here" ng-model="currentPost.content"><br></td>
+        <td><button class="button" ng-click="fn.savePost()">Post</button></td>
+      </tr>
+    </table>
+  </div>
+</div>

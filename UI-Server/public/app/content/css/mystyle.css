@@ -1,0 +1,64 @@
+
+body {
+    background-color: lightgray;
+    background-size: cover;
+}
+
+h1 {
+    font-family: comic sans ms;
+    text-align: center;
+    color: navy;
+    margin-top: 20px;
+}
+
+h5 {
+    font-family: comic sans ms;
+    text-align: right;
+    color: navy;
+}
+input {
+    font-family: comic sans ms;
+    text-align: left;
+    color: black;
+}
+
+p {
+    #background-color: yellow;
+}
+
+table {
+    align: center;
+    cellpadding: 5;
+    cellspacing: 5;
+}
+img {
+    width: 75px;
+    height: 75px;
+}
+
+td {
+    font-family: comic sans ms;
+    text-align: left;
+    color: black;
+}
+
+.button {
+    font-family: comic sans ms;
+    width: 120px;
+    height: 50px;
+    background-color: gray; /* Green */
+    color: gray;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    cursor: pointer;
+    background-color: gray;
+    color: white;
+
+}
+
+.button:hover {
+    background-color: #FFFFFF;
+    color: red;
+}

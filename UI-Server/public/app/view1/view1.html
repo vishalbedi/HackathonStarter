@@ -1,0 +1,49 @@
+<div class="container" ng-controller="View1Ctrl">
+    <div>
+        <h1>REFRESHER</h1>
+    </div>
+    <div>
+        <table>
+            <td>
+                <table width = 500 height = 250>
+                    <tr>
+                        <td><img src = "../content/am.png"></td>
+                        <td>Connect with friends who play dota</td>
+                    </tr>
+
+                    <tr>
+                        <td><img src = "../content/bara.png"></td>
+                        <td>See how they rage about lost games</td>
+                    </tr>
+
+                    <tr>
+                        <td><img src = "../content/ns.png"></td>
+                        <td>Find more of them</td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <table>
+                    <tr>
+                        <td>
+                            <input type="text" name="loginid" placeholder = "Enter email" ng-model="loginCredentials.email"><br>
+                            <input type="password" name="password" placeholder="Enter password" ng-model="loginCredentials.password"><br>
+                        </td>
+                        <td><button class="button" ng-click="logMeIn()">Login</button></td>
+                    </tr>
+                    <tr>
+                        <td>Don't have an account yet?<br>Sign up, it's free!!</td>
+                        <td><a href="#!/view2">SignUp</a></td>
+                    </tr>
+                </table>
+            </td>
+            <div>
+
+            </div>
+        </table>
+
+    </div>
+
+
+
+</div>
